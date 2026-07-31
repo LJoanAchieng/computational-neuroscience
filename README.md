@@ -1,4 +1,4 @@
-[README (2).md](https://github.com/user-attachments/files/30580280/README.2.md)
+[README.md](https://github.com/user-attachments/files/30580280/README.2.md)
 # Computational Neuroscience
 
 A running collection of computational neuroscience projects, built as I
