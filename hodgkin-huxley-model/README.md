@@ -19,8 +19,8 @@ from the interplay of two of these channel types:
    it's positively charged, voltage shoots up sharply the spike's rise.
 3. Almost immediately after, the sodium channels **inactivate** (shut
    themselves off, even though voltage is still high), and separately,
-   **potassium (K⁺) channels** open — more slowly. Potassium flows out,
-   pulling voltage back down — the spike's fall.
+   **potassium (K⁺) channels** open more slowly. Potassium flows out,
+   pulling voltage back down the spike's fall.
 4. Because potassium is slow to close again, voltage briefly dips below
    resting level (the afterhyperpolarization) before settling back.
 
@@ -50,7 +50,7 @@ dh/dt = alpha_h(V)*(1-h) - beta_h(V)*h
 - `g_Na`, `g_K`, `g_L` — maximum conductance for each channel
 - `E_Na`, `E_K`, `E_L` — reversal potentials each ion pushes voltage
   toward
-- `alpha`/`beta` functions — empirical rate functions Hodgkin and Huxley
+- `alpha`/`beta` functions empirical rate functions Hodgkin and Huxley
   fit directly to their voltage-clamp recordings, describing how fast
   each gate opens and closes at a given voltage
 
@@ -82,7 +82,7 @@ available to open (`h` high), while potassium sits at a moderate
 baseline (`n` in between).
 
 **3. Single action potential**
-A short current pulse triggers one full spike — the real shape this
+A short current pulse triggers one full spike the real shape this
 time: sharp rise, peak, fast fall, and a brief undershoot, with no
 faked reset rule. Also plots the gating variables underneath the voltage
 trace, showing `m` shooting up first, `h` dropping right after, and `n`
@@ -101,7 +101,7 @@ excitability," distinct from the LIF model's "Class 1" smooth onset.
 ## LIF vs. HH comparison
 
 Both models share the same core skeleton (leak + input + spike), but
-generate the spike very differently — LIF fakes it with a
+generate the spike very differently. LIF fakes it with a
 threshold/reset rule, HH generates it from real channel dynamics. This
 leads to genuinely different f-I curve shapes: LIF ramps up smoothly
 from zero, while HH stays silent then jumps sharply past a threshold
@@ -127,7 +127,7 @@ functions defined earlier (rate functions, `steady_state_gates`,
 Having built the mechanistic foundation (LIF and HH), the next phase
 moves into cognitive computational neuroscience: reinforcement learning
 and reward prediction error models, bridging into decision-making and
-reward-based learning — connecting to a background in economics and data
+reward-based learning connecting to a background in economics and data
 analysis.
 
 ## References
