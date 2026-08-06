@@ -107,7 +107,7 @@ leads to genuinely different f-I curve shapes: LIF ramps up smoothly
 from zero, while HH stays silent then jumps sharply past a threshold
 current. This distinction (Class 1 vs. Class 2 excitability) is a real
 classification used to describe different real neuron types, and it
-affects how neurons encode information — Class 1 neurons can fire
+affects how neurons encode information Class 1 neurons can fire
 arbitrarily slowly and encode information in their rate, while Class 2
 neurons behave more like an on/off switch.
 
