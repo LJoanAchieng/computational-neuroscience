@@ -10,13 +10,13 @@ that generate the action potential naturally.
 
 ## The core idea
 
-A neuron's membrane has voltage-gated ion channels — "doors" that open
+A neuron's membrane has voltage-gated ion channels "doors" that open
 and close depending on the voltage itself. The action potential emerges
 from the interplay of two of these channel types:
 
 1. A stimulus nudges voltage up slightly.
 2. **Sodium (Na⁺) channels** fly open fast. Sodium rushes in, and since
-   it's positively charged, voltage shoots up sharply — the spike's rise.
+   it's positively charged, voltage shoots up sharply the spike's rise.
 3. Almost immediately after, the sodium channels **inactivate** (shut
    themselves off, even though voltage is still high), and separately,
    **potassium (K⁺) channels** open — more slowly. Potassium flows out,
@@ -54,7 +54,7 @@ dh/dt = alpha_h(V)*(1-h) - beta_h(V)*h
   fit directly to their voltage-clamp recordings, describing how fast
   each gate opens and closes at a given voltage
 
-Simulated using 4th-order Runge-Kutta (RK4) integration — more accurate
+Simulated using 4th-order Runge-Kutta (RK4) integration more accurate
 than simple Euler integration, needed because the sodium dynamics are
 fast and numerically "stiff."
 
@@ -71,7 +71,7 @@ The notebook is organized into five sections, each building on the last:
 **1. Rate functions and ionic currents**
 The `alpha`/`beta` functions for each gate, and the three ionic current
 equations. Includes a plot of the rate functions against voltage,
-showing why sodium activation (`alpha_m`) rises so steeply near -40 mV —
+showing why sodium activation (`alpha_m`) rises so steeply near -40 mV
 the trigger point for the spike.
 
 **2. Resting gate values**
