@@ -1,6 +1,6 @@
 # Hodgkin-Huxley Neuron Model
 
-A from-scratch Python implementation of the Hodgkin-Huxley model — the
+A from-scratch Python implementation of the Hodgkin-Huxley model the
 biophysical model of the action potential that Alan Hodgkin and Andrew
 Huxley developed from experiments on the squid giant axon, earning them
 the 1963 Nobel Prize in Physiology or Medicine. Built as a direct
@@ -118,7 +118,7 @@ pip install numpy matplotlib jupyter
 jupyter notebook hodgkin_huxley_model.ipynb
 ```
 
-Run all cells in order — later sections depend on variables and
+Run all cells in order later sections depend on variables and
 functions defined earlier (rate functions, `steady_state_gates`,
 `simulate`, etc.).
 
