@@ -57,16 +57,16 @@ Each project follows the same build-up:
 
 ## Roadmap
 
-**Phase 1 — Foundations**
+**Phase 1 Foundations**
 - [x] Leaky integrate-and-fire (LIF) neuron
 - [ ] Hodgkin-Huxley single neuron model
 
-**Phase 2 — Core cognitive modeling tools**
+**Phase 2 Core cognitive modeling tools**
 - [ ] Reinforcement learning & reward prediction error (Q-learning)
 - [ ] Bayesian models of belief updating
 - [ ] Drift-diffusion model of decision-making
 
-**Phase 3 — Applied / portfolio capstone**
+**Phase 3 Applied / portfolio capstone**
 - [ ] Fit a cognitive model to real open behavioral data
 - [ ] Reproduce a result from a published cognitive neuroscience paper
 
