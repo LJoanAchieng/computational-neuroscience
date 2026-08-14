@@ -104,7 +104,7 @@ pip install numpy matplotlib jupyter
 jupyter notebook reward_learning_model.ipynb
 ```
 
-Run all cells in order — later sections reuse functions and variables
+Run all cells in order: later sections reuse functions and variables
 defined earlier.
 
 ## Why this connects to economics
