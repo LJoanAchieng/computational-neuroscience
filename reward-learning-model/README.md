@@ -17,11 +17,11 @@ outcomes? The core loop:
 2. Get a reward (or don't).
 3. Compare what you expected against what you actually got.
 4. Use that gap to update your expectations.
-5. Repeat — expectations get more accurate over time.
+5. Repeat expectations get more accurate over time.
 
 That gap between expected and actual reward is called the **reward
 prediction error (RPE)**, and it's one of the most important ideas in
-this field — because the brain appears to compute something
+this field because the brain appears to compute something
 mathematically identical to it, using dopamine neurons.
 
 ## The famous neuroscience finding
