@@ -2,7 +2,7 @@
 
 A from-scratch Python implementation of reward-based learning, built to
 understand how the brain (and simple algorithms) learn what's valuable
-through trial and error — and how this directly explains a famous finding
+through trial and error and how this directly explains a famous finding
 in dopamine neuroscience. This is the first project in the cognitive
 computational neuroscience phase, following the mechanistic modeling
 foundation built in the [LIF](../lif-neuron-model) and
@@ -36,7 +36,7 @@ in the 1990s and found that dopamine neurons fire in proportion to
   (negative RPE)
 
 This reframed dopamine from a "pleasure chemical" into a **learning
-signal** — mathematically equivalent to the error term in a
+signal** mathematically equivalent to the error term in a
 reinforcement learning algorithm.
 
 ## The equation
@@ -50,7 +50,7 @@ V_new = V_old + alpha * (R - V_old)
 - `V` — current expected value of an action
 - `R` — actual reward received
 - `(R - V_old)` — the reward prediction error
-- `alpha` — learning rate: how much a single new experience updates the
+- `alpha` learning rate: how much a single new experience updates the
   belief
 
 Same structural pattern as the leak equation in the LIF model — current
@@ -87,12 +87,12 @@ reinforcement learning and economic decision theory.
 Plots reward prediction error trial by trial. Early trials show large
 swings (lots of surprise, since expectations haven't formed yet); later
 trials cluster near zero (expectations are accurate, so outcomes rarely
-surprise the agent) — this is the direct model analogue of dopamine
+surprise the agent) this is the direct model analogue of dopamine
 firing shrinking as learning converges.
 
 **4. Reproducing the Schultz dopamine finding**
-Three manually constructed scenarios — fully expected reward, unexpected
-reward, and expected reward omitted — directly recreate the real
+Three manually constructed scenarios fully expected reward, unexpected
+reward, and expected reward omitted directly recreate the real
 dopamine recording pattern: no RPE (no bar) for the fully expected case,
 a strong positive RPE for the unexpected reward, and a strong negative
 RPE for the omitted reward.
@@ -119,7 +119,7 @@ learning sits at the center of neuroeconomics.
 
 ## What's next
 
-Next up: a drift-diffusion model of decision-making — how choices form
+Next up: a drift-diffusion model of decision-making how choices form
 over time from accumulating noisy evidence, the second core tool in the
 cognitive computational neuroscience toolkit, focused on the moment of
 choice rather than learning value over time.
