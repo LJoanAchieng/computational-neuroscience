@@ -1,6 +1,6 @@
 # Drift-Diffusion Model & Confirmation Bias
 
-A from scratch Python implementation of the drift-diffusion model (DDM) —
+A from scratch Python implementation of the drift-diffusion model (DDM)
 the standard model of how decisions form moment-to-moment from
 accumulating noisy evidence extended to model confirmation bias
 quantitatively. This is the second core tool in the cognitive
@@ -75,7 +75,7 @@ reach the same decision.
 
 **4. Drift-rate bias (confirmation bias)**
 A second, more literal model of confirmation bias: rather than starting
-biased, the momentary evidence itself is weighted unevenly — evidence
+biased, the momentary evidence itself is weighted unevenly evidence
 confirming a preferred belief counts at full strength, while evidence
 contradicting it gets dampened. Tested against a clear case (true
 evidence favors "left", agent prefers "right", contrary evidence
